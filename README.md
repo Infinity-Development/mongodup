@@ -5,7 +5,8 @@ Simple CLI for handling duplicate collections in mongoose
 
 ## Exampe Usage and Output
 ```
-root@infinity:~/mongo-dup-remover# ./mongodup --col users,bots --key userID,botIDDBTool: init
+root@infinity:~/mongo-dup-remover# ./mongodup --col users,bots --key userID,botID
+DBTool: init
 DBTool: Connecting to mongodb://127.0.0.1:27017/infinity
 Connected to mongoDB?
 Collections in DB:  [packages staff_apps dev_apps users reviews transcripts sessions tickets oauths suggests bots votes]
